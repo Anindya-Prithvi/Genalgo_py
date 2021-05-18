@@ -86,6 +86,9 @@ class prog_image:
                 item[i]=(item[i]+secrets.choice([-2,-1,0,1,2]))%256
         return item
 
+    
+##This is the place where you select an image...change resized.jpeg with your image
+##here 13 indicates that the population pool will always have 13 alive candidates.
 a=prog_image(13,"resized.jpeg")
 i=0
 storage_x=[]
